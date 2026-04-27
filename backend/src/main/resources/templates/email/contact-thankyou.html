@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Thank You for Reaching Out</title>
+</head>
+
+<body style="font-family: Arial, sans-serif; max-width: 600px; margin: auto; border: 1px solid #eee; padding: 20px;">
+    <div style="text-align: center; margin-bottom: 20px;">
+        <img th:if="${logoExists}" src="cid:logo" alt="Sanatana Parampare" style="width: 80px;" />
+        <h2 th:unless="${logoExists}">Sanatana Parampare</h2>
+    </div>
+    <h2 style="color: #4CAF50; text-align: center;" th:text="${'Hello ' + name + ' 👋'}">Hello 👋,</h2>
+    <p style="text-align: center; font-size: 16px;"><strong>Thank you for reaching us!</strong></p>
+    <p style="text-align: center; font-size: 16px; line-height: 1.6;">Our team will connect with you soon. We appreciate
+        your interest in <strong>Sanatana parampare</strong>.</p>
+
+    <div style="background-color: #f9f9f9; padding: 20px; border-radius: 10px; margin: 25px 0; text-align: center;">
+        <p style="font-size: 14px; color: #666;">We've received your message and will review it shortly.</p>
+    </div>
+
+    <div style="margin-top: 40px; border-top: 1px solid #eee; padding-top: 20px; font-size: 14px; color: #444;">
+        <p>Regards,<br>
+            <strong>Sanatana parampare</strong><br>
+            📞 +91 7892783668<br>
+            📍 kandadka house dugaladka post, sullia TQ, DK
+        </p>
+    </div>
+</body>
+
+</html>
