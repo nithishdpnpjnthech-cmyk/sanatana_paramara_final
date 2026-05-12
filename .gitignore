@@ -51,8 +51,7 @@ replit.md
 .local/
 
 # Project specific
-attached_assets/
-backend/uploads/
-frontend/public/assets/
+
+
 node_modules/
 .env
