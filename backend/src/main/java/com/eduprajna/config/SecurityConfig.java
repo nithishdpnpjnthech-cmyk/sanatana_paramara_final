@@ -89,7 +89,7 @@ public class SecurityConfig {
 
         // EXACT frontend origin
         config.setAllowedOrigins(List.of(
-                "http://56.228.81.193"));
+                "http://localhost:3000"));
 
         config.setAllowedMethods(List.of(
                 "GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));

@@ -10,7 +10,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api")
 @CrossOrigin(origins = { "http://localhost:3000", "http://127.0.0.1:3000", "http://56.228.81.193",
-        "http://56.228.81.193:8080" })
+        "http://localhost:3000" })
 public class EmailController {
 
     @Autowired
